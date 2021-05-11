@@ -1,0 +1,28 @@
+1 - npm init
+2 llenas descripcion
+
+3 -  npm install express mongoose
+4 - npm install --save-dev nodemon 
+
+5  // modificamos el DEV
+{
+  "name": "fullstackjs",
+  "version": "1.0.0",
+  "description": "fullstack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "author": "guido",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8"
+  }
+}
+
+
+6-  npm run dv
